@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "villagerbreedingenhancements",
+	"version": "${version}",
+	"name": "VillagerBreedingEnhancements",
+	"description": "Allows villagers to breed normally with a 5 minute cooldown, you still must drop them a food item though.",
+	"authors": [
+		"blupillcosby"
+	],
+	"contact": {},
+	"license": "CC0-1.0",
+	"icon": "icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.blupillcosby.villagerbreedingenhancements.VillagerBreedingEnhancements"
+		],
+		"jade": [
+			"net.blupillcosby.villagerbreedingenhancements.compat.jade.JadePlugin"
+		]
+	},
+	"mixins": [
+		"villagerbreedingenhancements.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~26.1",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

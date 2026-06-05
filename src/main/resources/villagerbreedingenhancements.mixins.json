@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "net.blupillcosby.villagerbreedingenhancements.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "VillagerMixin",
+    "VillagerMakeLoveMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
